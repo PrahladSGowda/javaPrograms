@@ -21,9 +21,17 @@ for (Character ch : set) {
 		}
 		else
 		{
+			for (int j = s.charAt(i); j < s.length(); j++) {
+				if(ch==s.charAt(i))
+				{
+					System.out.println(ch+" "+count);
+				}
+			}
 			break;
 		}
+		
 	}
+	
 	System.out.print(ch+""+count);
 }
 	}
