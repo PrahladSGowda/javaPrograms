@@ -9,6 +9,7 @@ public class WordRepeated {
 			if(arr[i].toLowerCase().contains("test"))
 			{
 				count++;
+				System.out.println(arr[i]);
 			}
 		}
 		System.out.println(count);

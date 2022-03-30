@@ -17,10 +17,10 @@ public class EquiTraianglePattern {
 			{
 				System.out.print("  ");
 			}
-			else
-			{
-				System.out.print("   ");
-			}
+		else
+		{
+			System.out.print("   ");
+		}
 		}
 	}
 
